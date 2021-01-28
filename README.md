@@ -1,17 +1,17 @@
-# @wojtekmaj/enzyme-adapter-react-17
+# @hteker/enzyme-adapter-react-17
 
 Unofficial adapter for React 17 for [Enzyme](https://enzymejs.github.io/enzyme/).
 
 ## Installation
 
 ```
-npm install --save-dev @wojtekmaj/enzyme-adapter-react-17
+npm install --save-dev @hteker/enzyme-adapter-react-17
 ```
 
 or, if you're using Yarn:
 
 ```
-yarn add --dev @wojtekmaj/enzyme-adapter-react-17
+yarn add --dev @hteker/enzyme-adapter-react-17
 ```
 
 ### Note for npm v7 users
@@ -24,7 +24,7 @@ Finally, you need to configure enzyme to use the adapter you want it to use. To 
 
 ```js
 import Enzyme from 'enzyme';
-import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
+import Adapter from '@hteker/enzyme-adapter-react-17';
 
 Enzyme.configure({ adapter: new Adapter() });
 ```

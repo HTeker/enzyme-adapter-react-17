@@ -1,8 +1,7 @@
 {
-  "name": "@wojtekmaj/enzyme-adapter-react-17",
-  "version": "0.4.1",
-  "description": "JavaScript Testing utilities for React",
-  "homepage": "https://enzymejs.github.io/enzyme/",
+  "name": "@hteker/enzyme-adapter-react-17",
+  "version": "1.0.0",
+  "description": "Unofficial adapter for React 17 for [Enzyme](https://enzymejs.github.io/enzyme/).",
   "main": "build",
   "scripts": {
     "build": "babel --source-maps=both src -d build",
@@ -12,24 +11,11 @@
     "test": "yarn lint",
     "watch": "yarn build -w"
   },
-  "keywords": [
-    "javascript",
-    "shallow rendering",
-    "shallowRender",
-    "test",
-    "reactjs",
-    "react",
-    "flux",
-    "testing",
-    "test utils",
-    "assertion helpers",
-    "tdd",
-    "mocha"
-  ],
-  "author": "Jordan Harband <ljharb@gmail.com>",
-  "contributors": [
-    "Wojciech Maj <kontakt@wojtekmaj.pl>"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HTeker/enzyme-adapter-react-17.git"
+  },
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "enzyme-adapter-utils": "^1.14.0",
@@ -63,15 +49,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "build/",
-    "src/",
-    "index.d.ts"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wojtekmaj/enzyme-adapter-react-17.git"
-  }
+  "bugs": {
+    "url": "https://github.com/HTeker/enzyme-adapter-react-17/issues"
+  },
+  "homepage": "https://github.com/HTeker/enzyme-adapter-react-17#readme"
 }
